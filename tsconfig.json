@@ -2,5 +2,33 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./customer-app"
+    },
+    {
+      "path": "./storefront-web"
+    },
+    {
+      "path": "./admin-web"
+    },
+    {
+      "path": "./api"
+    },
+    {
+      "path": "./shared-types"
+    },
+    {
+      "path": "./shared-utils"
+    },
+    {
+      "path": "./shared-ui"
+    },
+    {
+      "path": "./theme-config"
+    },
+    {
+      "path": "./api-client"
+    }
+  ]
 }
